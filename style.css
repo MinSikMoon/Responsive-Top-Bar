@@ -11,6 +11,10 @@ html {
     font-size: 14px;
 }
 
+.container {
+    width: 100%;
+}
+
 /* generic 변수 선언 */
 :root {
     --blue: #287bff;
