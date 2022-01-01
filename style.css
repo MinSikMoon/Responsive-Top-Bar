@@ -146,8 +146,8 @@ body {
 
 .userDiv div {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
     margin: 0;
 }
 
@@ -155,8 +155,8 @@ body {
     font-size: 2rem;
 }
 
-.user {
-    min-width: 40px;
+.user img {
     height: 40px;
-    overflow: hidden;
+    width: 40px;
+    border-radius: 50%;
 }
