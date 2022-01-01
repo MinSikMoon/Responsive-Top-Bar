@@ -120,19 +120,21 @@ body {
 }
 
 .search input {
-    padding: 0 20px;
+    padding: 0 30px;
     width: 100%;
     min-height: 30px;
     border-radius: 20px;
     border: 1px solid var(--black1);
     outline: none;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 .search ion-icon{
     position: absolute;
-    font-size: 1rem;
-    left: 5px;
-    top: 0.6rem;
+    font-size: 1.3rem;
+    left: 10px;
+    top: 0.5rem;
 }
 
 .userDiv {
