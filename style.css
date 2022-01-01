@@ -98,6 +98,9 @@ body {
 }
 
 .topBar .category .categoryItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     cursor: pointer;
     padding: 10px 0px;
     margin: 0 30px;
@@ -139,4 +142,15 @@ body {
 
 .userDiv {
     display: flex;
+}
+
+.userDiv div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.alarm ion-icon{
+    font-size: 2rem;
 }
