@@ -88,3 +88,7 @@ body {
 .category {
     display: flex;
 }
+
+.userDiv{
+    display: flex;
+}
