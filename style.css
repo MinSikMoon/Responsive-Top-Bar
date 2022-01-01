@@ -85,17 +85,23 @@ body {
     font-size: 2rem;
 }
 
+
+.topBar .topBarGrid{
+    display: grid;
+    grid-template-columns: 6fr 3fr 2fr;
+}
 .category {
     display: flex;
 }
 
-.topBar .category .categoryItem{
+.topBar .category .categoryItem {
     cursor: pointer;
     padding: 10px 0px;
     margin: 0 20px;
     white-space: nowrap;
+
 }
 
-.userDiv{
+.userDiv {
     display: flex;
 }
