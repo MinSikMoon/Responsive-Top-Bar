@@ -70,26 +70,27 @@ body {
 
 .topBar div {
     padding: 10px 20px;
-    font-size: 1.3rem;
-    font-weight: 500;
+    margin: 0 20px;
+    font-size: 1.4rem;
+    font-weight: 600;
 }
 
 .topBar .logo {
     display: flex;
-    min-width: 40px;
-    min-height: 40px;
+    min-width: 3rem;
+    min-height: 3rem;
     justify-content: center;
     flex-direction: column;
 }
 
 .topBar ion-icon {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 
-.topBar .topBarGrid{
+.topBar .topBarGrid {
     display: grid;
-    grid-template-columns: 7fr 2fr 2fr;
+    grid-template-columns: 6fr 3fr 1fr;
 }
 
 .category {
@@ -104,10 +105,34 @@ body {
 
 }
 
-.search{
+.topBar .search {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0 20px;
+    margin: 0;
+    min-width: 400px;
+}
+
+.search label {
+    position: relative;
+    width: 100%;
+}
+
+.search input {
+    padding: 0 20px;
+    width: 100%;
+    min-height: 30px;
+    border-radius: 20px;
+    border: 1px solid var(--black1);
+    outline: none;
+}
+
+.search ion-icon{
+    position: absolute;
+    font-size: 1rem;
+    left: 5px;
+    top: 0.6rem;
 }
 
 .userDiv {
