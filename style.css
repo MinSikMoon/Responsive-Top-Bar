@@ -7,6 +7,10 @@
     font-family: 'Nanum Gothic', sans-serif;
 }
 
+html {
+    font-size: 14px;
+}
+
 /* generic 변수 선언 */
 :root {
     --blue: #287bff;
@@ -56,10 +60,11 @@ body {
     width: 100%;
 }
 
-.topBar{
+.topBar {
     display: flex;
+    border-bottom: 1px solid;
 }
 
-.topBar div{
+.topBar div {
     padding: 20px;
 }
