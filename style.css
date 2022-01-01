@@ -55,3 +55,7 @@ p {
 body {
     width: 100%;
 }
+
+.topBar{
+    display: flex;
+}
