@@ -65,6 +65,7 @@ body {
     width: 100%;
     display: flex;
     border-bottom: 1px solid;
+    justify-content: center;
 }
 
 .topBar div {
@@ -98,7 +99,7 @@ body {
 .topBar .category .categoryItem {
     cursor: pointer;
     padding: 10px 0px;
-    margin: 0 20px;
+    margin: 0 30px;
     white-space: nowrap;
 
 }
