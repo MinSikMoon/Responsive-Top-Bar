@@ -37,11 +37,12 @@ html {
 .categoryContainer {
     display: flex;
     font-size: 1.15rem;
-    font-weight: 540;
 }
 
 .categoryItem {
+    color: var(--grey1);
     margin-left: 50px;
     letter-spacing: -.3px;
     text-decoration: none;
+    font-weight: 550;
 }
