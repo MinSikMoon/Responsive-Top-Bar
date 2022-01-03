@@ -42,7 +42,9 @@ html {
 }
 
 .categoryItem {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: var(--grey1);
     margin-left: 50px;
     letter-spacing: -.3px;
