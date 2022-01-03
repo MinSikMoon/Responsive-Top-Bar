@@ -25,6 +25,7 @@ html {
 
 /* top-bar */
 .topBar {
+    max-width: 1195px;
     width: 100%;
     display: flex;
     justify-content: center;
