@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;500;600;700;800&display=swap');
 
 * {
     padding: 0;
@@ -38,13 +38,21 @@ html {
 .categoryContainer {
     display: flex;
     font-size: 1.15rem;
+    line-height: 1;
 }
 
 .categoryItem {
+    position: relative;
     color: var(--grey1);
     margin-left: 50px;
     letter-spacing: -.3px;
     text-decoration: none;
-    font-weight: 550;
+    font-weight: 500;
     cursor: pointer;
+    line-height: 1;
+}
+
+.categoryItem.active {
+    font-size: 1.2rem;
+    font-weight: bold;
 }
