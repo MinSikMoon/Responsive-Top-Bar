@@ -43,4 +43,5 @@ html {
 .categoryItem {
     margin-left: 50px;
     letter-spacing: -.3px;
+    text-decoration: none;
 }
