@@ -40,5 +40,6 @@ html {
     font-weight: 540;
 }
 
-
-
+.categoryItem {
+    margin-left: 50px;
+}
