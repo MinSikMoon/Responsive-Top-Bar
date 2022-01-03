@@ -10,6 +10,7 @@ html {
 }
 
 .container {
+    -webkit-font-smoothing: antialiased;
     width: 100%;
 }
 
@@ -45,4 +46,5 @@ html {
     letter-spacing: -.3px;
     text-decoration: none;
     font-weight: 550;
+    cursor: pointer;
 }
