@@ -19,5 +19,11 @@
     - 홈페이지 등 디자인이 예쁜것 같다.
 ## 4.2. top-bar 디자인
 ![image](https://user-images.githubusercontent.com/21155325/147938309-933f7f1f-c67f-434c-a15b-54cc3fdba3f1.png)
-
+## 4.3. 결과
+![image](https://user-images.githubusercontent.com/21155325/147948037-4553e303-3dfc-47a6-a61c-bb8a7be34197.png)
+## 4.4. 회고
+    1. div 세로 정렬을 flex안쓰고 하는법
+    2. font 두께가 미흡
+    3. logo는 svg로도 만든다
+    4. top-bar에 max width를 둔다
      
