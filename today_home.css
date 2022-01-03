@@ -26,6 +26,7 @@ html {
 .topBar {
     display: flex;
     justify-content: center;
+    padding: 34px 20px;
 }
 
 /* category container */
