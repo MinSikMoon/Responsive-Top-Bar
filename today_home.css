@@ -24,9 +24,13 @@ html {
 
 /* top-bar */
 .topBar {
+    width: 100%;
     display: flex;
     justify-content: center;
     padding: 34px 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    justify-content: space-between;
 }
 
 /* category container */
